@@ -9,7 +9,7 @@ export default function App() {
         justifyContent: "center",
       }}
     >
-      <Cards style={{}}></Cards>
+      <Cards></Cards>
     </div>
   );
 }
