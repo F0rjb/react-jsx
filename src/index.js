@@ -1,13 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <div
+      style={{
+        backgroundImage: `url("https://4kwallpapers.com/images/wallpapers/abstract-background-3840x2160-9741.jpg")`,
+        backgroundSize: "cover",
+      }}
+    >
+      <br />
+      <br />
+      <App />
+    </div>
   </React.StrictMode>
 );
 
